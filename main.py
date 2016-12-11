@@ -24,6 +24,7 @@ def calculation():
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([url])
             error = 'fatto'
+            #per ora metto questo, poi farò un controllo per vedere se hanno inserito l'url e cazzi e mazzi
     return render_template('pinpegui.html',error=error)
 
 if __name__ == "__main__":
