@@ -1,4 +1,6 @@
-from flask import Flask
+#!/usr/bin/python 
+#-*- coding: utf-8 -*-from flask import Flask
+
 from flask import render_template
 from flask import request
 import youtube_dl
